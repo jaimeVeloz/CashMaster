@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/views/index.css" rel="stylesheet" />
+
+@section Scripts
+{
+    <script src="~/Scripts/views/index.js"></script>
+}
+
+<div class="container-form">
+    <div class="row">
+        <div class="col-md-6">
+            <form id="form-calculate">
+                <div class="row">
+                    <label>Item price:</label>
+                    <input name="itemPrice" type="text" class="form-control" />
+                </div>
+                <div class="row">
+                    <label>Payment:</label>
+                    <input name="payment" type="text" class="form-control" />
+                </div>
+                <div class="row btn-container">
+                    <button id="btn-save" type="button" class="btn btn-success">Calculate</button>
+                    <button id="btn-clear" type="button" class="btn btn-warning">Clear</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div id="change-container" class="row">
+
+            </div>
+        </div>
+    </div>
+</div>

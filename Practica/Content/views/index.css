@@ -1,0 +1,18 @@
+﻿.btn-container {
+    margin-top: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 1.4rem;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+.container-form {
+    margin-top: 1.5rem;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
