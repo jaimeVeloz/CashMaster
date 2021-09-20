@@ -19,4 +19,5 @@ namespace Practica.Models
         public string currencyDenomination { get; set; }
         public bool isRemaining { get; set; }
     }
+
 }
